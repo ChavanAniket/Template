@@ -1,0 +1,62 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.nav-item{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.navbarBelow{
+    padding-top: 80px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 3em;
+}
+.module1{
+    background-color: cadetblue;
+}
+.decor{
+    text-decoration-line:underline; 
+}
+.borderVideo{
+    border: 8px solid white;
+   
+}
+.buy{
+    text-align: center;
+}
+.buy a{
+    padding: 10px;
+    text-align: center;
+    background-color: #e15d3a;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.buy a:hover{
+    background-color: black;
+}
+.rating{
+    text-align: center;
+    color: white;
+}
+.col-md-4{
+    text-align: center;
+}
+.module3{
+    background-color: #647da7;
+}
+@media only screen and (max-width: 600px) {
+  .module3 img{
+      height: 270px;
+      width: 320px;
+    
+  }
+    .borderVideo{
+        text-align: center;
+        width: 320px;
+        height: 240px;
+    }
+}
+
